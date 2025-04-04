@@ -24,7 +24,7 @@ export default function App() {
     document.body.className = isLightMode ? "light-mode" : "dark-mode";
   }, [isLightMode]);
 
-  // Fetch tasks from the backend
+ 
   useEffect(() => {
     const fetchTasks = async () => {
       const data = await getTasks();
@@ -48,9 +48,9 @@ export default function App() {
         setEditId(null);
       } else {
         const newTask = await addTask({ text: taskText, completed: false });
-        console.log("New Task:", newTask); // Debugging
-        setTasks([...tasks, newTask]); // Add the new task to the state
-        console.log("Updated Tasks:", tasks); // Debugging
+        console.log("New Task:", newTask); 
+        setTasks([...tasks, newTask]); 
+        console.log("Updated Tasks:", tasks); 
       }
       setTaskText("");
       setIsOpen(false);
