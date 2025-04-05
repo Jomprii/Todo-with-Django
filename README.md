@@ -1,3 +1,3 @@
-And for the Frontend is https://jomprii.github.io/Todo-with-Django/
+link deployed for Frontend is https://jomprii.github.io/Todo-with-Django/
 
-link deployed for the Backend is https://django-backend-svk0.onrender.com/tasks/
+ and for the Backend is https://django-backend-svk0.onrender.com/tasks/
